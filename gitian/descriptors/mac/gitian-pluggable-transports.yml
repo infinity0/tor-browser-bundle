@@ -248,9 +248,9 @@ script: |
   go build -ldflags '-s'
   cp -a meek-client $PTDIR
   cd ..
-  cd meek-client-torbrowser
+  cd meek-client-wrapper
   go build -ldflags '-s'
-  cp -a meek-client-torbrowser $PTDIR
+  cp -a meek-client-wrapper $PTDIR
   cd ..
   mkdir -p $TBDIR/Docs/meek
   cp -a README doc/*.1 $TBDIR/Docs/meek

@@ -322,9 +322,9 @@ script: |
   go build -ldflags '-s'
   cp -a meek-client.exe $PTDIR
   cd ..
-  cd meek-client-torbrowser
+  cd meek-client-wrapper
   go build -ldflags '-s'
-  cp -a meek-client-torbrowser.exe $PTDIR
+  cp -a meek-client-wrapper.exe $PTDIR
   cd ..
   cd terminateprocess-buffer
   go build -ldflags '-s'
