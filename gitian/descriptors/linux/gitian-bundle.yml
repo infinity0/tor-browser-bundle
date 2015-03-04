@@ -22,7 +22,7 @@ remotes:
   "dir": "torbutton"
 - "url": "https://git.torproject.org/https-everywhere.git"
   "dir": "https-everywhere"
-- "url": "https://git.torproject.org/pluggable-transports/meek.git"
+- "url": "https://github.com/infinity0/meek.git"
   "dir": "meek"
 - "url": "https://github.com/googlei18n/noto-fonts.git"
   "dir": "noto-fonts"

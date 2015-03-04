@@ -27,7 +27,7 @@ remotes:
   "dir": "txsocksx"
 - "url": "https://git.torproject.org/pluggable-transports/goptlib.git"
   "dir": "goptlib"
-- "url": "https://git.torproject.org/pluggable-transports/meek.git"
+- "url": "https://github.com/infinity0/meek.git"
   "dir": "meek"
 - "url": "https://github.com/agl/ed25519.git"
   "dir": "ed25519"

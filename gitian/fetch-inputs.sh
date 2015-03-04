@@ -271,7 +271,7 @@ fteproxy              https://github.com/kpdyer/fteproxy.git $FTEPROXY_TAG
 libdmg-hfsplus        https://github.com/vasi/libdmg-hfsplus.git $LIBDMG_TAG
 txsocksx              https://github.com/habnabit/txsocksx.git $TXSOCKSX_TAG
 goptlib               https://git.torproject.org/pluggable-transports/goptlib.git $GOPTLIB_TAG
-meek                  https://git.torproject.org/pluggable-transports/meek.git $MEEK_TAG
+meek                  https://github.com/infinity0/meek.git $MEEK_TAG
 faketime              https://github.com/wolfcw/libfaketime $FAKETIME_TAG
 ed25519               https://github.com/agl/ed25519.git $GOED25519_TAG
 siphash               https://github.com/dchest/siphash.git $GOSIPHASH_TAG

@@ -28,7 +28,7 @@ remotes:
   "dir": "https-everywhere"
 - "url": "https://github.com/vasi/libdmg-hfsplus.git"
   "dir": "libdmg-hfsplus"
-- "url": "https://git.torproject.org/pluggable-transports/meek.git"
+- "url": "https://github.com/infinity0/meek.git"
   "dir": "meek"
 - "url": "https://github.com/googlei18n/noto-fonts.git"
   "dir": "noto-fonts"
