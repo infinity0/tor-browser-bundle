@@ -56,6 +56,7 @@ $WRAPPER_DIR/build-helpers/dzip.sh $GITIAN_DIR/inputs/tbb-docs.zip ./Docs/
 rm -f $GITIAN_DIR/inputs/TorBrowser.app.meek-http-helper.zip
 (cd PTConfigs/mac && $WRAPPER_DIR/build-helpers/dzip.sh $GITIAN_DIR/inputs/TorBrowser.app.meek-http-helper.zip TorBrowser.app.meek-http-helper)
 cp PTConfigs/mac/torrc-defaults-appendix $GITIAN_DIR/inputs/torrc-defaults-appendix-mac
+cp PTConfigs/mac/meek-browser-helper-mac.sh $GITIAN_DIR/inputs/
 cp PTConfigs/bridge_prefs.js $GITIAN_DIR/inputs/
 cp PTConfigs/meek-http-helper-user.js $GITIAN_DIR/inputs/
 cp mac-tor.sh $GITIAN_DIR/inputs/

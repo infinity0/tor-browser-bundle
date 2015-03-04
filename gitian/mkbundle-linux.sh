@@ -58,6 +58,7 @@ cd ./Bundle-Data/
 rm -f $GITIAN_DIR/inputs/tbb-docs.zip
 $WRAPPER_DIR/build-helpers/dzip.sh $GITIAN_DIR/inputs/tbb-docs.zip ./Docs/
 cp PTConfigs/linux/torrc-defaults-appendix $GITIAN_DIR/inputs/torrc-defaults-appendix-linux
+cp PTConfigs/linux/meek-browser-helper-linux.sh $GITIAN_DIR/inputs/
 cp PTConfigs/bridge_prefs.js $GITIAN_DIR/inputs/
 cp PTConfigs/meek-http-helper-user.js $GITIAN_DIR/inputs/
 

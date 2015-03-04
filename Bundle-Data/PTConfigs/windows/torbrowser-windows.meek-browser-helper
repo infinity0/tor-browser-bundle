@@ -1,0 +1,5 @@
+# meek-browser-helper program for Tor Browser on Windows
+./firefox.exe
+-no-remote
+-profile
+TorBrowser/Data/Browser/profile.meek-http-helper
