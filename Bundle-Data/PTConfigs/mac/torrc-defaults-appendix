@@ -12,4 +12,4 @@ ClientTransportPlugin obfs2,obfs3,obfs4,scramblesuit exec PluggableTransports/ob
 ClientTransportPlugin flashproxy exec PluggableTransports/flashproxy-client --register :0 :9000
 
 ## meek configuration
-ClientTransportPlugin meek exec PluggableTransports/meek-client-torbrowser -- PluggableTransports/meek-client
+ClientTransportPlugin meek exec PluggableTransports/meek-client-wrapper --helper PluggableTransports/meek-browser-helper-mac.sh -- PluggableTransports/meek-client
