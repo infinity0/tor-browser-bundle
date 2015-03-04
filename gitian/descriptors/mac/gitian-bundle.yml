@@ -40,6 +40,7 @@ files:
 - "torrc-defaults-appendix-mac"
 - "bridge_prefs.js"
 - "meek-http-helper-user.js"
+- "meek-browser-helper-mac.sh"
 - "TorBrowser.app.meek-http-helper.zip"
 - "mac-skeleton.zip"
 - "dmg-applications.tar.xz"
@@ -146,6 +147,7 @@ script: |
     cat ~/build/torrc-defaults-appendix-mac >> Data/Tor/torrc-defaults
     cat ~/build/bridge_prefs.js >> Data/Browser/profile.default/preferences/extension-overrides.js
     cat ~/build/meek-http-helper-user.js >> Data/Browser/profile.meek-http-helper/user.js
+    cp ~/build/meek-browser-helper-mac.sh Tor/PluggableTransports/
   fi
   # Install a "tor" shim that sets the working directory. See #10030.
   mv Tor/tor Tor/tor.real

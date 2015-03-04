@@ -41,6 +41,7 @@ files:
 - "torrc-defaults-appendix-linux"
 - "bridge_prefs.js"
 - "meek-http-helper-user.js"
+- "meek-browser-helper-linux.sh"
 - "relativelink-src.zip"
 - "linux-skeleton.zip"
 - "linux-langpacks.zip"
@@ -148,6 +149,7 @@ script: |
     cat ~/build/torrc-defaults-appendix-linux >> Data/Tor/torrc-defaults
     cat ~/build/bridge_prefs.js >> Data/Browser/profile.default/preferences/extension-overrides.js
     cat ~/build/meek-http-helper-user.js >> Data/Browser/profile.meek-http-helper/user.js
+    cp ~/build/meek-browser-helper-linux.sh Tor/PluggableTransports/
   fi
   chmod 700 Data/Browser
   chmod 700 Data/Tor

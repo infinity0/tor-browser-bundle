@@ -39,6 +39,8 @@ files:
 - "torrc-defaults-appendix-windows"
 - "bridge_prefs.js"
 - "meek-http-helper-user.js"
+- "meek-browser-helper-windows.bat"
+- "meek-browser-helper-windows.js"
 - "windows-skeleton.zip"
 - "win32-langpacks.zip"
 - "noscript@noscript.net.xpi"
@@ -134,6 +136,8 @@ script: |
     cat ~/build/torrc-defaults-appendix-windows >> Data/Tor/torrc-defaults
     cat ~/build/bridge_prefs.js >> Data/Browser/profile.default/preferences/extension-overrides.js
     cat ~/build/meek-http-helper-user.js >> Data/Browser/profile.meek-http-helper/user.js
+    cp ~/build/meek-browser-helper-windows.bat Tor/PluggableTransports/
+    cp ~/build/meek-browser-helper-windows.js Tor/PluggableTransports/
   fi
   cd ../../..
   #
